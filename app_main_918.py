@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 model = pickle.load(open('model.heart.sav','rb'))
 
-Sex_encoder = pickle.load(open('encoder.Sex.sav','rb'))
+Sex_encoder = pickle.load(open('encoder.sex.sav','rb'))
 ChestPainType_encoder = pickle.load(open('encoder.ChestPainType.sav','rb'))
 RestingECG_encoder = pickle.load(open('encoder.RestingECG.sav','rb'))
 ExerciseAngina_encoder = pickle.load(open('encoder.ExerciseAngina.sav','rb'))
